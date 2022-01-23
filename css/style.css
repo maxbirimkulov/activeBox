@@ -1,0 +1,169 @@
+*{margin:0;padding:0}
+
+/*============ header ============*/
+ .header{width:100%;min-height:750px;background:url('../images/header/bg.png') center;background-size:cover;position: relative;}
+.top-header{width:100%;min-height:100px;display:flex;justify-content:space-between;align-items:center;font-family:'ralewaybold';border-bottom:1px solid #50536a}
+.nav-menu ul{display:flex;list-style:none;align-items:center;margin-top:15px}
+.nav-menu li{margin-right:60px}
+.nav-menu li a{font-size:13px;color:white;text-transform:uppercase;text-decoration:none}
+.content-header{margin-top:155px;text-align:center;color:white}
+.content-header h1{font-size:65px;font-family:'OpenSans-Bold'}
+.content-header p{font-size:22px;font-family:'Raleway-Regular';margin:45px 0 80px 0}
+.content-header a{display:flex;justify-content:center;align-items:center;width:200px;height:50px;background-color:#e84545;color:white;font-size:13px;text-transform:uppercase;text-decoration:none;font-family:'ralewaysemibold';margin:0 auto}
+.menu-mobile{display: none;}
+
+/* ////////////////////////// */
+ 
+/*=========== more-info ============*/
+ .more-info{margin-top:120px}
+.icon-box{margin-bottom:75px;text-align:center}
+.info-icon{display:flex;justify-content:center;margin-bottom:35px}
+.icon-box h5{font-size:14px;color:#2d3033;text-transform:uppercase;font-family:'ralewaybold'}
+.icon-box p{font-size:14px;color:#6c7279;font-family:'Raleway-Regular';margin-top:27px}
+
+/* ////////////////////////// */
+ 
+/*========= block-photo ==========*/
+ .box-photo{display:flex}
+.box-photo img{width:100%;height:350px;object-fit:cover}
+.mini-photo{position:relative;cursor:pointer}
+.mini-photo.on-hover .hidden-block{opacity:1}
+.hidden-block{position:absolute;top:0;left:0;width:100%;height:350px;background-color:rgb(255 0 0 / 54%);display:grid;justify-content:center;align-items:center;opacity:0;transition:0.4s}
+.hidden-block h5{text-align:center;color:white;text-transform:uppercase;font-size:14px;font-family:'ralewaybold'}
+.hidden-block h5 span{text-transform:capitalize;font-family:'Raleway-Regular'}
+
+/* ////////////////////////// */
+ 
+/*========== people ============*/
+ .people{margin-top:100px}
+.people-photo{display:flex;justify-content:center}
+.people-photo{width:100%}
+.people-name{margin:20px 0 20px 0;font-family:'Raleway-Regular'}
+.people-name h5{font-size:22px;color:#2d3033}
+.people-name p{font-size:13px;color:#e84545;text-transform:uppercase}
+.people-text{font-size:14px;color:#6c7279}
+.social ul{display:flex;list-style:none;margin-top:20px}
+.social li{display:flex;justify-content:center;align-items:center;width:38px;height:38px;border:1px solid #e8ecee;margin-right:10px;transition: 0.3s;}
+.social li:hover{border: 1px solid #e84545;}
+/* ////////////////////////// */
+
+/*========== people ============*/
+.people{margin-top:100px}
+.people-photo{display:flex;justify-content:center}
+.people-photo img{width:100%}
+.people-name{margin:20px 0 20px 0;font-family:'Raleway-Regular'}
+.people-name h5{font-size:22px;color:#2d3033}
+.people-name p{font-size:13px;color:#e84545;text-transform:uppercase}
+.people-text{font-size:14px;color:#6c7279}
+.social ul{display:flex;list-style:none;margin-top:20px}
+.social li{display:flex;justify-content:center;align-items:center;width:38px;height:38px;border:1px solid #e8ecee;margin-right:10px;transition:0.3s}
+.social li:hover{border:1px solid #e84545}
+
+/* ////////////////////////// */
+ 
+/*================ slider-block ===============*/
+ .slider-block{width:100%;min-height:505px;margin-top:60px;overflow:hidden}
+.left-sl img{width:100%;min-height:505px;object-fit:cover}
+.right-sl{width:100%;min-height:505px;background-color:#53354a;color:white;display:grid;padding:0 30px 0 20px;align-items:center}
+.text-slider h5{font-size:36px;font-family:'Cardo-Italic'}
+.text-slider p{font-size:13px;font-family:'ralewaybold'}
+.right-sl .owl-dots .owl-dot{width:30px;height:30px;border-radius:50%;background-color:#fff;display:block}
+
+/* ////////////////////////// */
+ 
+/*================== ready =======================*/
+ .ready{width:100%;min-height:340px;text-align:center;display:grid;justify-content:center;align-items:center}
+.ready h5{font-size:28px;color:#2d3033;font-family:'Raleway-Regular'}
+.ready p{font-size:13px;color:#2d3033;font-family:'ralewaybold';text-transform:uppercase}
+.ready a{display:flex;justify-content:center;align-items:center;width:280px;height:45px;background-color:#e84545;color:white;font-size:13px;text-transform:uppercase;text-decoration:none;font-family:'ralewaysemibold';margin:0 auto}
+
+/* ////////////////////////// */
+
+/*========== footer =========*/
+ .footer{width:100%;min-height:250px;background-color:#3a3e64;display:grid;justify-content:center;align-items:center}
+.content-f h5{font-size:14px;color:white;text-transform:uppercase;font-family:'ralewaybold'}
+.content-f p{font-size:14px;color:#afb0bc;font-family:'Raleway-Regular'}
+.content-f ul{display:flex;list-style:none}
+.content-f li{display:flex;justify-content:center;align-items:center;width:37px;height:37px;border:1px solid white;margin-right:8px}
+
+#load{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+    background: white;
+    z-index: 20;
+}
+#load img{
+    width: 100%;
+    height: 20px;
+}
+#load div{
+	position: absolute;
+	left: 45%;
+	top: 35%;
+	text-align:center;
+}
+ 
+#load div p{
+	margin-top:20px;
+    color:black;
+    font-family: 'ralewaysemibold';
+    font-size: 18px;
+}
+/* ////////////////////////// */
+
+/* ======================== @media ======================*/
+@media(max-width:1199px) {
+.nav-menu li{margin-right:30px}
+}
+/* ////////////////////////// */
+@media(max-width:991px) {
+.logotip img{width:70%}
+.nav-menu li{margin-right:15px}
+.content-header h1{font-size:45px;font-family:'OpenSans-Bold'}
+.content-header p{font-size:16px;font-family:'Raleway-Regular';margin:25px 0 40px}
+.header{width:100%;min-height:590px}
+.content-header{margin-top:85px;text-align:center;color:#fff}
+.box-photo img{width:100%;height:190px;object-fit:cover}
+.hidden-block{width:100%;height:190px}
+}
+/* ////////////////////////// */
+@media(max-width:767px) {
+.top-header{display:none}
+.menu-triger{display:block;width:25px;height:17px;background:url(https://snipp.ru/demo/449/menu.png) 0 0 repeat;position:absolute;left:15px;top:12px}
+.menu-close{display:block;width:28px;height:28px;background:url(https://snipp.ru/demo/449/close.png) 0 0 repeat;position:absolute;right:20px;top:20px;z-index:100}
+.menu-popup{display:none;background:#2c2e3e;position:absolute;left:0;right:0;top:0;box-sizing:border-box;padding:30px;z-index:9999;box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
+.menu-popup ul{margin:0;padding:0}
+.menu-popup li{list-style:none;margin:10px 0;padding:0}
+.menu-popup li a{font-size:18px;font-family:"Arial";color:#fff;line-height:1.4;text-decoration:none}
+.body_pointer *{cursor:pointer}
+.menu-mobile{position:fixed;top:0;left:0;width:100%;height:40px;background-color:#30344e;z-index:10;display: block;}
+.content-header{margin:0;padding-top:100px}
+.logotip img{width:13%;position:absolute;right:0;left:0;top:12px;margin:0 auto}
+.content-header h1{font-size:34px;font-family:'OpenSans-Bold'}
+.content-header p{font-size:12px;font-family:'Raleway-Regular';margin:25px 0 40px}
+.footer{padding-top:40px}
+.content-f{margin-bottom:15px}
+.box-photo {display: flex;flex-wrap: wrap;}
+.mini-photo {position: relative;cursor: pointer;margin: 10px auto;}
+.box-photo img {width: 100%;height: 190px;object-fit: cover;}
+}
+/* ////////////////////////// */
+@media(max-width:575px) {
+.header{width:100%;min-height:390px}
+.content-header a{width:170px;height:40px}
+.icon-box p{padding:0 50px}
+.people-photo img{width:40%}
+.right-sl{display:none}
+.content-header p{font-size:12px;font-family:'Raleway-Regular';margin:25px 0 20px}
+}
+/* ////////////////////////// */
+@media(max-width:415px) {
+.content-header{margin:0;padding-top:100px}
+.content-header h1{font-size:20px;font-family:'OpenSans-Bold'}
+.icon-box p{padding:0}
+.logotip img{width:20%;position:absolute;right:0;left:0;top:14px;margin:0 auto}
+}
+/* ////////////////////////// */

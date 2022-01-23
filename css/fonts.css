@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf')
+}
+@font-face{
+    font-family: 'ralewaybold';
+    src: url('../fonts/ralewaybold.ttf')
+}
+@font-face{
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/ralewaysemibold.ttf')
+}
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.ttf')
+}
+@font-face{
+    font-family: 'Cardo-Italic';
+    src: url('../fonts/Cardo-Italic.ttf')
+}
+@font-face{
+    font-family: '';
+    src: url('../fonts/')
+}
